@@ -2,7 +2,7 @@
 using namespace std;
 
 struct st{
-    int a[100000];
+    int a[1000];
     int top;
     st(){
         top = -1;
@@ -58,5 +58,7 @@ int main(){
         }
     }
     if(res) cout<<s;
-    else cout<<"0";
+    else{
+        cout<<"0";
+    }
 }
